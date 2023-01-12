@@ -1,0 +1,11 @@
+.restbanner{
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0px 0px 0px 0px ;
+}
+.rescarousel-inner{
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+}

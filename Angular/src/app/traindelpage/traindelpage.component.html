@@ -1,0 +1,306 @@
+<div class="topbanner">
+  <div class="logo">
+    <img src="\assets\image\logo.png">
+    <h3>Food Wala</h3>
+  </div>
+
+  <nav class="keybuttons">
+    <li class="pagebutton">
+      <a class="pagebutton1" href="" [routerLink]="['/housedelpage']" routerLinkActive="router-link-active">Order
+        Tracking</a>
+    </li>
+
+    <li class="pagebutton">
+      <a class="pagebutton1" href="" [routerLink]="['/traindelpage']" routerLinkActive="router-link-active">Train Live
+        Tracking</a>
+    </li>
+
+    <li class="pagebutton">
+      <a class="pagebutton1" href="" [routerLink]="['/locationdelpage']" routerLinkActive="router-link-active">Group
+        Order</a>
+    </li>
+
+    <li class="pagebutton">
+      <a class="pagebutton14" href="" [routerLink]="['/loginpage']" routerLinkActive="router-link-active">Conact Us</a>
+    </li>
+  </nav>
+</div>
+<div class="banner">
+  <!-- <video style="width: auto; height: 500px;" controls autoplay>  
+    <source src="/assets/videos/videoplayback.webm" type="video/mp4">  
+  </video> -->
+  <img src="/assets/image/train banner.png">
+  <div class="cardpnr">
+    <form class="d-flex">
+      <!-- <label >Name Of Station : </label> -->
+      <input class="form-control me-2" type="search" placeholder="Name Of Station ..." aria-label="Search">
+      <button class="pnrbutton" type="submit">Search</button>
+    </form>
+    <form [formGroup]='PNRform' (ngsubmit)="Clickme()">
+      <div class="formgroup inputbox text">
+        <!-- <label for="PNR">PNR No : </label> -->
+        <input type="text" id="PNR" formControlName="PNR" class="form-control" placeholder="Enter Your PNR ..."
+          required="">
+        <span *ngIf="PNRform.controls.PNR.invalid && PNRform.controls.PNR.touched">Please Enter You PNR No...</span>
+      </div>
+      <button class="pnrbutton" type="submit" [disabled]="PNRform.invalid" (click)="Clickme()">Get Details</button>
+    </form>
+  </div>
+</div>
+<br>
+<br>
+<table class="pnrtable">
+
+  <!-- <caption>Train Details</caption> -->
+  <tr *ngFor="let details of PNR">
+    <td>
+      <h6>Booked From :</h6> {{details.From}}
+    </td>
+    <td>
+      <h6>Board At :</h6>{{details.Board}}
+    </td>
+    <td>
+      <h6>To :</h6>{{details.To}}
+    </td>
+  </tr>
+
+  <!-- <caption>Passenger Details</caption> -->
+  <tr *ngFor="let details of PNR">
+    <td>
+      <h6>PNR :</h6> {{details.PNR}}
+    </td>
+    <td>
+      <h6>Train No / Name :</h6>{{details.TrainNo}}
+    </td>
+    <td>
+      <h6>Class :</h6>{{details.Class}}
+    </td>
+  </tr>
+
+  <!-- <caption>Passenger Details</caption> -->
+  <tr *ngFor="let details of PNR">
+    <td>
+      <h6>Name :</h6>{{details.Name}}
+    </td>
+    <td>
+      <h6>Age :</h6>{{details.Age}}
+    </td>
+    <td>
+      <h6>Gender :</h6>{{details.Gender}}
+    </td>
+    <td>
+      <h6>Coch :</h6>{{details.Coch}}
+    </td>
+    <td>
+      <h6>Berth NO / Type :</h6>{{details.Berth}}
+    </td>
+  </tr>
+
+</table>
+
+<div class="itemsbanner">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    
+    <div class="carousel-inner " style="cursor: pointer;">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="/assets/image/items1.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Pizza</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/items2.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Biryani</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/item3.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Dosa</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/item4.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 10px 0px 0px 160px;">Burger</h6>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="/assets/image/item55.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Fried Rice</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/item6.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Noodles</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/item8.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Chicken</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/item12.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Thali</h6>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="/assets/image/item1010.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Ice Cream</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/item110.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Cakes</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/item9.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Chaat</h6>
+          </div>
+
+          <div class="col-lg-3">
+            <img src="/assets/image/item77.jpg" class="d-block w-100" alt="..." style="height: 250px;" />
+            <h6 style="margin: 5px 0px 0px 160px;">Rolls</h6>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+<div class="text2">
+  <div class="text22">
+    <!-- <h6>Website For Restaurant And Hotels</h6> -->
+    <p class="text21">Top Brands For You</p>
+
+  </div>
+
+
+  <div class="text2logo" style="cursor: pointer;">
+    <div class="menu">
+      <img src="/assets/image/r1.png">
+    </div>
+    <div class="tea">
+      <img src="/assets/image/r2.png">
+    </div>
+    <div class="coffe">
+      <img src="/assets/image/r3.png">
+    </div>
+    <div class="reslist">
+      <img src="/assets/image/r44.png">
+    </div>
+    <div class="breakfast">
+      <img src="/assets/image/top10.png">
+    </div>
+    <!-- <div class="spical">
+          <img src="/assets/image/r66.png">
+      </div> -->
+    <div class="spical">
+      <img src="/assets/image/top77.png">
+    </div>
+    <div class="spical">
+      <img src="/assets/image/top88.png">
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="spacialcards">
+  <div class="restext">
+    <h2>CHOOSE YOUR FOOD & ENJOY</h2>
+  </div>
+
+  <div class="spacres">
+
+    <!-- <app-locationdelpage></app-locationdelpage> -->
+    <!-- <app-home-p-carousel></app-home-p-carousel> -->
+    <app-train-p-carousel></app-train-p-carousel>
+  
+    <div class="restcards">
+      <div class="row">
+        <div class="card" style="width: 250px; height: 250px; margin-left: 25px;">
+          <img class="card-img-top" src="/assets/image/rescards1.png" alt="Card image cap"
+            style="width: 210px; height: 180px; padding: 10px; margin: 20px 0px 0px 5px;">
+          <div class="card-body">
+            <h6 style="margin-left: 50px;">Break Fast</h6>
+          </div>
+        </div>
+
+        <div class="card" style="width: 250px; height: 250px; margin-left: 25px;">
+          <img class="card-img-top" src="/assets/image/row23.jpg" alt="Card image cap"
+          style="width: 210px; height: 180px; padding: 10px; margin: 20px 0px 0px 5px;">
+          <div class="card-body">
+            <h6 style="margin-left: 50px;">Mandi</h6>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card" style="width: 250px; height: 250px; margin-left: 25px;">
+          <img class="card-img-top" src="/assets/image/row2.33.jpg" alt="Card image cap"
+          style="width: 210px; height: 180px; padding: 10px; margin: 20px 0px 0px 5px;">
+          <div class="card-body">
+            <h6 style="margin-left: 80px;">Meals</h6>
+          </div>
+        </div>
+
+        <div class="card" style="width: 250px; height: 250px; margin-left: 25px;">
+          <img class="card-img-top" src="/assets/image/rescards4.png" alt="Card image cap"
+          style="width: 210px; height: 180px; padding: 10px; margin: 20px 0px 0px 5px;">
+          <div class="card-body">
+            <h6 style="margin-left: 80px;">Thali</h6>
+          </div>
+        </div>
+
+        <!-- <div class="card" style="width: 250px; height: 250px; margin-left: 25px;">
+          <img class="card-img-top" src="/assets/image/rescards5.png" alt="Card image cap"
+            style="width: 210px; height: 160px; padding: 10px;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 250px; height: 250px; margin-left: 25px;">
+          <img class="card-img-top" src="/assets/image/rescards6.png" alt="Card image cap"
+            style="width: 210px; height: 160px; padding: 10px;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+ "Booked From" : "Nellore (NLR) State Data: 16-Dec-2022",
+"Board At" : "Nellore (NLR) Departure : 16:19 16-Dec-2022",
+"To" : "Kanniyakumari Terminus (CAPE) Arrival : 09:58 17-Dec-2022",
+"PNR" : "1234567890",
+"Train No./Name" : "12665/ Kanniyakumari Exp",
+"Class" : "Sleeper Class (Sl)",
+"Name" : "Shyam",
+"Age" : "22",
+"Gender" : "M",
+"Coch" : "S7",
+"Berth NO / Type" : "07 / SideLower",
+"Detailes" : "ALL IS WIll"
+
+ 
+
+
+"Booked From" : "Nellore (NLR) State Data: 16-Dec-2022",
+"Board At" : "Nellore (NLR) Departure : 07:55 16-Dec-2022",
+"To" : "Jammu Tawi (JAT) Arrival : 08:30 19-Dec-2022",
+"PNR" : "1234567891",
+"Train No./Name" : "12345/ Simhapuri Exp",
+"Class" : "Sleeper Class (Sl)",
+"Name" : "Sreeja",
+"Age" : "22",
+"Gender" : "F",
+"Coch" : "S5",
+"Berth NO / Type" : "07 / SideLower",
+"Detailes" : "ALL IS WIll"
+
+"Booked From" : "Ernakulam Junction (ERS) State Data: 16-Dec-2022",
+"Board At" : "Ernakulam Junction (ERS) Departure : 07:15 16-Dec-2022",
+"To" : "Nellore (NLR) Arrival : 12:11 16-Dec-2022",
+"PNR" : "1234567892",
+"Train No./Name" : "18190/ Tatanagar Exp",
+"Class" : "Sleeper Class (Sl)",
+"Name" : "Sandra",
+"Age" : "22",
+"Gender" : "F",
+"Coch" : "S5",
+"Berth NO / Type" : "07 / SideLower",
+"Detailes" : "ALL IS WIll"
+
+"Booked From" : "Maduri Junction (MDU) State Data: 16-Dec-2022",
+"Board At" : "Maduri Junction (MDU) Departure : 05:30 16-Dec-2022",
+"To" : "Nellore (NLR) Arrival : 19:50 16-Dec-2022",
+"PNR" : "1234567893",
+"Train No./Name" : "07192/ Kacheguda SF Exp",
+"Class" : "Sleeper Class (Sl)",
+"Name" : "Sundar",
+"Age" : "22",
+"Gender" : "M",
+"Coch" : "S5",
+"Berth NO / Type" : "07 / SideLower",
+"Detailes" : "ALL IS WIll"
+
+"Booked From" : "Patna Junction (PNBE) State Data: 16-Dec-2022",
+"Board At" : "Patna Junction (PNBE) Departure : 16:30 16-Dec-2022",
+"To" : "Nellore (NLR) Arrival : 06:10 18-Dec-2022",
+"PNR" : "1234567894",
+"Train No./Name" : "22670/ Ernakulam SF Exp",
+"Class" : "Sleeper Class (Sl)",
+"Name" : "Sreeja",
+"Age" : "22",
+"Gender" : "M",
+"Coch" : "S5",
+"Berth NO / Type" : "07 / SideLower",
+"Detailes" : "ALL IS WIll"

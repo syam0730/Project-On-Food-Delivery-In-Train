@@ -1,0 +1,205 @@
+.topbanner{
+  border: 1px solid black;
+  width: auto;
+  height: 150px;
+  background-color: aliceblue;
+
+}
+.logo{
+  /* border: 1px solid black; */
+  width:150px;
+  height: 100px;
+  margin: 5px 5px 10px 10px;
+  font-style: italic;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  font-family: Poppins-Bold;
+  font-size:17px;
+  font-weight: Bold;
+  align-content: center;
+  margin: 0px 50px 0px 0px;
+}
+.keybuttons{
+  align-items: center;
+  align-content: center;
+  margin: -60px 0px 0px 300px;
+  /* margin-left: 170px; */
+}
+.pagebutton{
+  list-style: none;
+  font-size: 22px;
+  margin: auto 50px;
+
+}
+.pagebutton1{
+  list-style: none;
+  font-size: 22px;
+  margin: 10px 0px 0px 0px;
+  color: black;
+  text-decoration: none
+  
+}
+
+.pagebutton14{
+  list-style: none;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  
+}
+.banner{
+  /* border: 1px solid black; */
+  width: auto;
+  height: 520px;
+  align-items: center;
+  padding: 17px;
+  /* background-color: rgb(210, 206, 210); */
+}
+
+.cardpnr{
+  border: 1px solid black;
+  width: 900px;
+  height: 150px;
+  margin: -350px 0px 50px 350px;
+  border-radius: 10px;
+  
+}
+form{
+  /* border: 1px solid black; */
+  /* width: 500px;
+  height: 250px; */
+  margin: 30px 0px 30px 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+input{
+  width: 300px;
+  height: 90px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 10px;
+}
+.pnrbutton{
+  width: 150px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 25);
+  color: white;
+  margin: -2px 0px 0px 20px;
+}
+
+table, tr, td{
+  border: 1px solid black;
+}
+.pnrtable{
+  margin: 0px 0px 0px 200px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.text2{
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  background-color: rgb(148, 51, 60);
+}
+
+.text22{
+  border: 1px solid black;
+  width: 500px;
+  height: auto;
+  margin: 30px 0px 20px 500px;
+  color: rgba(41, 35, 112, 0.725);
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.text21{
+  align-items: center;
+  font-family:'Times New Roman', Times, serif;
+  margin: 10px 0px 0px 90px;
+  font-size: 40px;
+}
+.text2logo{
+  /* border: 1px solid black; */
+  width: auto;
+  height: auto;
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.menu, .tea, .coffe, .reslist, .breakfast, .spical{
+  /* border: 1px solid black; */
+  width: 180px;
+  height: 180px;
+  margin: 20px 0px 50px 30px;
+  padding: 35px;
+  border-radius: 90%;
+  background-color: aliceblue;
+}
+.itemsbanner{
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
+.spacialcards{
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  padding: 30px;
+  margin-top: 50px;
+  background-color: rgb(220, 166, 166);
+}
+.restext{
+  width: 530px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 0px 0px 0px 470px ;
+  font-size: 60px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(45, 63, 165);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.spacres{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 50px;
+  background-color: rgb(197, 245, 240);
+}
+.restbanner{
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  margin: 0px 0px 0px 0px ;
+  border-radius: 10px;
+}
+
+
+.restcards{
+  width: 900px;
+  height: 650px;
+  border: 1px solid black;
+  margin: 0px 0px 0px 80px ;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: rgb(197, 245, 240);
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+

@@ -1,0 +1,77 @@
+.banner{
+    width: auto;
+    height: 450px;
+    border-radius: 1px soild black;
+    padding: 10px;
+}
+.box{
+    width: auto;
+    height: 1500px;
+    border-radius: 1px soild black;
+    background-color: rgb(161, 247, 250);
+    padding: 50px;
+}
+.menu{
+    width: 800px;
+    height: 1000px;
+    border-radius: 1px soild black;
+    background-color:rgb(79, 80, 91);
+    align-items:center;
+    margin-left: 320px;
+    margin-top: 80px;
+    border-radius: 30px;
+}
+
+.wrapper{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+
+}
+.wrapper span{
+    width: 300px;
+    text-align:center;
+    font-size: 55px;
+    font-weight: 600;
+}
+.wrapper span.num{
+    font-size: 50px;
+    border-right: 2px solid ngba(0,0,0,0.2);
+    border-left:2px solid ngba(0,0,0,0.2) ;
+
+}
+
+
+img{
+    width: 150px;
+}
+
+.select{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+.select span{
+    width: 300px;
+    text-align:center;
+    font-size: 55px;
+    font-weight: 600;
+}
+.select span.num{
+    font-size: 50px;
+    border-right: 2px solid ngba(0,0,0,0.2);
+    border-left:2px solid ngba(0,0,0,0.2) ;
+
+}

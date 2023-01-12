@@ -1,0 +1,320 @@
+<p>loginpage works!</p>
+
+
+<div class="banner">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..." />
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..." />
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..."  />
+                </div>
+
+            </div>
+          
+          
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..." />
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..." />
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..."  />
+                </div>
+
+            </div>
+          
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..." />
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..." />
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="\assets\image\sumar.png" class="d-block w-100" alt="..."  />
+                </div>
+
+            </div>
+         
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>
+
+<!-- <div class="pnrcard">
+    <nav class="navbar" style="background-color: violet; border-radius: 10px;">
+      <div class="container-fluid" style="width: auto; background-color: violet;">
+        <form pnrform="ngform" (ngsubmit)="submit(pnrform)" class="d-flex" role="search" style="width: 400px; padding: 20px;">
+          <input class="form-control me-2" type="search" placeholder="Enter PNR Number" aria-label="Search" required>
+          <input type="button" [disabled]="pnrform.invalid" style="background-color: rgb(238, 111, 127); color: aliceblue;">
+          <a href="/restaurants"><button class="btn " type="submit" [disabled]="pnrform.invalid" style="background-color: rgb(238, 111, 127); color: aliceblue;">Get Details</button></a>         
+        </form>
+      </div>
+    </nav>
+  </div>
+  <div class="pnrdetails">
+    <form>
+    
+      <div class="pnrtable1">
+        <div class="pnrtext">
+          <label>Booked From : </label>
+          <h5>Nellore (NLR)</h5>
+          <h5>Start Data : 16-Dec-2022</h5>
+        </div>
+  
+        <div class="pnrtext">
+          <label>Boarding At : </label>
+          <h5>Nellore (NLR)</h5>
+          <h5>Departure : 19:10, 16-Dec-2022</h5>
+        </div>
+  
+        <div class="pnrtext">
+          <label>To : </label>
+          <h5>Secunderabad</h5>
+          <h5>Arrival : 05:30, 17-Dec-2022</h5>
+        </div>
+      </div>
+
+      <br>
+      <hr>
+      <br>
+      <div class="pnrtable2">
+        <div class="pnrtext">
+          <label>PNR :</label>
+          <h6>1234567890</h6>
+        </div>
+  
+        <div class="pnrtext">
+          <label>Train No./Name : </label>
+          <h6>1234567890/Simhapuri Exp</h6>
+        </div>
+  
+        <div class="pnrtext">
+          <label>Class : </label>
+          <h6>Sleeper Class (SL)</h6>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="pnrtable3">
+        <div class="pnrtext">
+          <label>Name : </label>
+          <h6>Shyam Sundar</h6>
+        </div>
+        
+        <div class="pnrtext">
+          <label>Age : </label>
+          <h6>22</h6>
+        </div>
+  
+        <div class="pnrtext">
+          <label>Gender : </label>
+          <h6>M</h6>
+        </div>
+  
+        <div class="pnrtext">
+          <label>Coch : </label>
+          <h6>S3</h6>
+        </div>
+  
+        <div class="pnrtext">
+          <label>Berth No :</label>
+          <h6>07</h6>
+        </div>
+  
+        <div class="pnrtext">
+          <label>Berth Type : </label>
+          <h6>Side Lower</h6>
+        </div>
+      </div>
+
+    </form>
+</div> -->
+
+
+
+
+<div class="cards">
+
+  <!-- row 1 -->
+  <div class="row">
+      <div class="card mb-3 mx-auto" style="max-width: 540px; ">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <nav id="main-nav" class="sidebar">
+                <!-- <a href="/pages/orders/orderskfc.html" onclick=""><button><img src="/assets/image/KFC.webp" class="img-fluid rounded-start" alt="..."></button></a> -->
+                <img src="/assets/image/KFC.webp" class="img-fluid rounded-start" alt="...">
+            </nav>
+              <!-- <img src="/Food Deli Proj  Pure/pic/KFC.webp" class="img-fluid rounded-start" alt="..."> -->
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">KFC</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="card mb-3 mx-auto" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/assets/image/buger king.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">McDonald's</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      
+  </div>
+
+  <!-- row 2 -->
+  <div class="row">
+      <div class="card mb-3 mx-auto" style="max-width: 540px; ">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/assets/image/2.11.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hyderabad Mandi</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="card mb-3 mx-auto" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/assets/image/row22.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">South Indian Meals</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      
+  </div>
+
+
+  <!-- row 3 -->
+  <div class="row">
+      <div class="card mb-3 mx-auto" style="max-width: 540px; ">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/assets/image/row31.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">South Indian Thali</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="card mb-3 mx-auto" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/assets/image/row32.1.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Biryani House </h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      
+  </div>
+
+
+   <!-- row 4 -->
+   <div class="row">
+    <div class="card mb-3 mx-auto" style="max-width: 540px; ">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/assets/image/row 4.1.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Andhra Meals</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="card mb-3 mx-auto" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/assets/image/row 42.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Breakfast Time </h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+        </div>
+    </div>
+    
+  </div>
+</div>

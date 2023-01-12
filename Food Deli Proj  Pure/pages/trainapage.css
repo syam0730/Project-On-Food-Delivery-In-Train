@@ -1,0 +1,90 @@
+.box{
+    background-color: rgb(228, 204, 170);
+}
+.form1{
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 500px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(247, 175, 5);
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(32, 131, 181);
+}
+p{
+    text-align: center;
+}
+.details{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 25px;
+    
+}
+
+
+ /* {
+    margin: 0;
+    padding: 0
+    box-sizing: border-box;
+} */
+/* body{
+    background-color: blue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 450px;
+    background-color: aqua;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: 0 0 5px rgba(0,0,0,0.5);
+
+}
+
+.container h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+#check{
+    display: none;
+}
+.content{
+    display: none;
+}
+label{
+    display: inline-block;
+    margin-top: 15px;
+    color: coral;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+#check:checked ~ .content{
+    display: block;
+}
+#check:checked ~ label{
+    visibility: hidden;
+}
+#check:checked ~ label::after{
+    content: 'Show Less';
+    display: block;
+    visibility: visible;
+} */
